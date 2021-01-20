@@ -1,25 +1,7 @@
 import { useEffect, useState, useRef } from "react";
+import Tools from "../helpers/tools";
 
-function getDimensions(element) {
-    const { height } = element.getBoundingClientRect();
-    const offsetTop = element.offsetTop;
-    const offsetBottom = offsetTop + height;
-  
-    return {
-        height,
-        offsetTop,
-        offsetBottom,
-    };
-};
-
-function scrollTo(element) {
-    element.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-    })
-}
-
-function NavBar(props: { sections: any[]; }) {
+export default function NavBar(props: { sections: any[]; }) {
     const navRef = useRef(null);
     const [currentSection, setCurrentSection] = useState();
 
@@ -28,7 +10,7 @@ function NavBar(props: { sections: any[]; }) {
         let buttons = [];
         buttonsList.forEach((section) => {
             buttons.push(
-                <button type="button" className={`navButton ${currentSection === section.section ? "selected" : ""}`} key={"button_"+section.section} onClick={() => scrollTo(section.ref.current)}>
+                <button type="button" className={`navButton ${currentSection === section.section ? "selected" : ""}`} key={"button_"+section.section} onClick={() => Tools.scrollTo(section.ref.current)}>
                     {section.section}
                 </button>
             )
@@ -38,13 +20,13 @@ function NavBar(props: { sections: any[]; }) {
 
     useEffect(() => {
         function handleScrollPosition() {
-            const { height: headerHeight } = getDimensions(navRef.current);
+            const { height: headerHeight } = Tools.getDimensions(navRef.current);
             const scrollPosition = window.scrollY + headerHeight;
       
             const selected = props.sections.find(({ section, ref }) => {
                 const ele = ref.current;
                 if (ele) {
-                    const { offsetBottom, offsetTop } = getDimensions(ele);
+                    const { offsetBottom, offsetTop } = Tools.getDimensions(ele);
                     return scrollPosition > offsetTop && scrollPosition < offsetBottom;
                 }
             });
@@ -69,4 +51,3 @@ function NavBar(props: { sections: any[]; }) {
         </header>
     );
 }
-export default NavBar;

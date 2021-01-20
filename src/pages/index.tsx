@@ -1,11 +1,12 @@
 import React, { useRef } from "react";
 
 import NavBar from "../components/navbar";
-import Home from "../components/home";
-import About from "../components/about";
-import Resume from "../components/resume";
-import Projects from "../components/projects";
-import Contact from "../components/contact";
+import Home from "../components/views/home";
+import About from "../components/views/about";
+import Resume from "../components/views/resume";
+import Projects from "../components/views/projects";
+import Contact from "../components/views/contact";
+import Footer from "../components/views/footer";
 
 export default function App() {
     const homeRef = useRef(null);
@@ -23,12 +24,13 @@ export default function App() {
     ];
     return (
         <div>
-            <section ref={homeRef}><Home /></section>
+            <section ref={homeRef}><Home about={aboutRef} /></section>
             <NavBar sections={appSections} />
             <section ref={aboutRef}><About /></section>
             <section ref={resumeRef}><Resume /></section>
             <section ref={projectsRef}><Projects /></section>
-            <section ref={contactRef}><Contact /></section>      
+            <section ref={contactRef}><Contact /></section>   
+            <Footer home={homeRef} />
         </div>
     )
 }
