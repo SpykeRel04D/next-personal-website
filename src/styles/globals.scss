@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700;800&display=swap');
 $font_01: 'Raleway', sans-serif;
+
+$content_zone_width: 1000px;
 
 $color_dark01: #252934;
 $color_dark02: #1b242f;
@@ -61,11 +63,19 @@ body {
 
     .sectionTitle {
         color: #444649;
-        font-weight: bold;
+        font-weight: 800;
         font-size: 2.2rem;
         text-decoration: underline;
         text-underline-position: under;
         margin-top: 0px;
+    }
+
+    .sectionContentZone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: $content_zone_width;
+        width: 100%;
     }
 
 }
@@ -128,13 +138,150 @@ body {
 
     .portrait {
         width: 80%;
-        max-width: 400px;
+        max-width: 360px;
         margin: 15px 0px;
     }
 }
 
 #Resume {
     background-color: $color_light01;
+
+    .subSectionsList {
+        list-style-type: none;
+        width: 90%;
+        margin: 16px 0px;
+        padding: 0px;
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: space-between;
+
+        .subSectionElement {
+            margin: 4px 5px;
+            font-size: 1rem;
+            font-weight: 800;
+
+            a {
+                text-decoration: inherit;
+                color: inherit;
+
+                &:hover {
+                    color: $color_dark01;
+                }
+            }
+            
+        }
+    }
+
+    .subSectionDiv {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        padding: 5px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box; 
+        box-sizing: border-box;
+        border-top: 2px groove $color_dark01;
+
+        .title {
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin: 0px;
+            margin-top: 5px;
+            align-self: flex-end;
+        }
+
+        .entry {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            margin: 10px auto;
+            
+            .etitle {
+                font-size: 0.9rem;
+                font-weight: 800;
+            }
+
+            .eSubTitle {
+                font-size: 0.8rem;
+                font-weight: 700;
+            }
+
+            .edescription {
+                font-size: 0.75rem;
+                font-weight: 400;
+            }
+        }
+
+        .languageList {
+            list-style-type: none;
+            width: 100%;
+            padding: 10px 15px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box; 
+            box-sizing: border-box;
+            display: flex;
+            flex-flow: wrap row;
+            justify-content: space-between;
+
+            .languageCard {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 20%;
+                max-width: 200px;
+                border-radius: 5px;
+                padding: 10px;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box; 
+                box-sizing: border-box;
+                background: rgb(233, 232, 232);
+                -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+                -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+                box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+                
+                .flag {
+                    width: 70%;
+                }
+
+                .language {
+                    font-weight: 700;
+                    font-size: 0.9rem;
+                    margin: 15px 0px 10px 0px;
+                }
+
+                .level {
+                    font-weight: 400px;
+                    font-size: 0.8rem;
+                    margin-top: 5px;
+                }
+            }
+        }
+
+        .skillsIntroduction {
+            align-self: center;
+            font-size: 0.9rem;
+            width: 98%;
+            margin: 15px 0px;
+        }
+
+        .skillsZone {
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 95%;
+        }
+
+        .skillsDisclosure {
+            margin-top: 20px;
+            font-size: 0.7rem;
+        }
+
+        hr {
+            width: 5%;
+            max-width: 50px;
+        }
+    }
 }
 
 #Projects {
@@ -290,10 +437,77 @@ body {
     .credit {
         margin: 15px 0px 30px 0px;
         font-size: 0.7rem;
+        font-weight: 100;
         color: #fff;
 
         .highlight {
             color: $color_custom01;
+        }
+    }
+}
+
+.skillBar {
+    position: relative;
+    width: 100%;
+    border-radius: 3px;
+    background: #eee;
+    margin: 6px 0px;
+    height: 36px;
+
+    .loadBar {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        border-radius: 3px;
+        
+        .titleBar {
+            display: flex;
+            align-items: center;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+
+            .titleTag {
+                color: white;
+                font-size: 0.75rem;
+                font-weight: 600;
+                margin: 0px 10px;
+            }
+        }
+    }
+
+    .percentage {
+        position: absolute;
+        margin-left: auto;
+        color: $color_dark01;
+        font-size: 0.7rem;
+        top: 10px;
+        right: 5px;
+    }
+}
+
+.SBlanguage {
+    .loadBar {
+        background:rgba(56, 150, 226, 0.6);
+        .titleBar {
+            background: rgb(56, 150, 226);
+        }
+    }
+}
+
+.SBtool {
+    .loadBar {
+        background: rgba(228, 114, 114, 0.6);
+        .titleBar {
+            background: rgb(228, 114, 114);
+        }
+    }
+}
+
+.SBalternate {
+    .loadBar {
+        background: rgba(105, 104, 179, 0.6);
+        .titleBar {
+            background: rgb(105, 104, 179);
         }
     }
 }
