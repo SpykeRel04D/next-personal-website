@@ -30,19 +30,32 @@ export default function Resume() {
                     <div className="entry">
                         <b className="etitle">Unity Front-End Developer and iOs Publisher of CQ-Mobile</b>
                         <b className="eSubTitle">GaiaByte, OCT 2017 - JUL 2020</b>
-                        <p className="edescription">TODO</p>
+                        <ul className="tasks">
+                            <li>Co-design the game mechanics and write documents for the publisher</li>
+                            <li>Integrate UI assets in the game using Unity3D</li>
+                            <li>Prepare the code to deploy and publish the game on the Apple Store</li>
+                        </ul>
                     </div>
                     <hr />
                     <div className="entry">
                         <b className="etitle">Product Owner and Developer of Cosmos Quest</b>
                         <b className="eSubTitle">GaiaByte, FEB 2017 - JUL 2020</b>
-                        <p className="edescription">TODO</p>
+                        <ul className="tasks">
+                            <li>Organize and decide the upcomming updates</li>
+                            <li>Design new events and take monetize decisions</li>
+                            <li>Main programmer for the client-side of the game</li>
+                            <li>Co-programmer on the back-end of the game</li>
+                        </ul>
                     </div>
                     <hr />
                     <div className="entry">
                         <b className="etitle">QA Assistant</b>
                         <b className="eSubTitle">SKARA - The Blade Remains, OCT 2016 - JAN 2017</b>
-                        <p className="edescription">TODO</p>
+                        <ul className="tasks">
+                            <li>Work with the game-design team in order to improve game mechanics</li>
+                            <li>Identify and report bugs of the game</li>
+                            <li>Learn to work in a big team using Agile methods</li>
+                        </ul>
                     </div>
                 </div>
                 <div className="subSectionDiv">

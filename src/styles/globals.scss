@@ -175,7 +175,8 @@ body {
     .subSectionDiv {
         display: flex;
         flex-direction: column;
-        width: 95%;
+        align-items: center;
+        width: 98%;
         padding: 5px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box; 
@@ -193,22 +194,32 @@ body {
         .entry {
             display: flex;
             flex-direction: column;
-            width: 90%;
+            width: 95%;
             margin: 10px auto;
             
             .etitle {
-                font-size: 0.9rem;
+                font-size: 1rem;
                 font-weight: 800;
             }
 
             .eSubTitle {
-                font-size: 0.8rem;
+                font-size: 0.9rem;
                 font-weight: 700;
             }
 
             .edescription {
-                font-size: 0.75rem;
+                font-size: 0.85rem;
                 font-weight: 400;
+            }
+
+            .tasks {
+                margin-left: 0px; 
+                padding-left: 20px;
+
+                li {
+                    font-size: 0.85rem;
+                    font-weight: 400;
+                }
             }
         }
 
@@ -278,7 +289,7 @@ body {
         }
 
         hr {
-            width: 5%;
+            width: 8%;
             max-width: 50px;
         }
     }
