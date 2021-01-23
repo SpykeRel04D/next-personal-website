@@ -43,8 +43,8 @@ export default function Resume() {
                         <ul className="tasks">
                             <li>Organize and decide the upcomming updates</li>
                             <li>Design new events and take monetize decisions</li>
-                            <li>Main programmer for the client-side of the game</li>
-                            <li>Co-programmer on the back-end of the game</li>
+                            <li>Main programmer for the client-side of the game (JavaScript)</li>
+                            <li>Co-programmer of the back-end of the game (NodeJS - PlayFab)</li>
                         </ul>
                     </div>
                     <hr />
@@ -95,7 +95,7 @@ export default function Resume() {
                     <h4 className="title">SKILLS</h4>
                     <p className="skillsIntroduction">
                         In my opinion, on the developer's industry, the most important thing is the ability to be able to use your knowledge to solve problems by learning and investigating.
-                        However, since some people likes to have an overview of developer's skills, here is a mostly honest list of mine.
+                        However, since some people like to have an overview of developer's skills, here is a mostly honest list of mine.
                     </p>
                     <div className="skillsZone">
                         <SkillBar tag={"C++"} percentage={40} label={"2/5"} type="language" />
@@ -120,7 +120,7 @@ export default function Resume() {
                         <SkillBar tag={"WordPress"} percentage={40} label={"2/5"} type="tools" />
                     </div>
                     <p className="skillsDisclosure">
-                        <b>Note:</b> Since I don't believe that is possible to known everything in any of the listed skills, 5 is equal to pretty confident and 1 means that I just tried it in some personal projects.
+                        <b>Note:</b> Since I don't believe that is possible to known everything in any of the listed skills, 5 is equal to pretty confident and 1 means that I just tried it once in some personal projects.
                     </p>
                 </div>
             </div>

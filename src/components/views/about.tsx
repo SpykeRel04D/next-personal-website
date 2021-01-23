@@ -1,5 +1,3 @@
-import portrait from "next/image";
-
 export default function About() {
     return(
         <div id="About" className="section">
