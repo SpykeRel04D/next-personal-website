@@ -13,7 +13,7 @@ export default function ProjectCard(props: { name: string, thumbnail: string, ba
         let icons = [];
         for (var i = 0; i < props.back.techs.length; i++) {
             icons.push(
-                <div className={styles.techContainer}>
+                <div className={styles.techContainer} key={i}>
                     <img className={styles.icon} src={"/icons/"+props.back.techs[i]+".png"} alt={props.back.techs[i]} />
                     <div className={styles.techName}>{props.back.techs[i]}</div>
                 </div>
