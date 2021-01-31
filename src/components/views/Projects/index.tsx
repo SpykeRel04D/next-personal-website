@@ -1,8 +1,8 @@
-import ProjectCard from '../projectcard';
+import ProjectCard from '../../ProjectCard/';
 
 export default function Projects() {
     return(
-        <div id="Projects" className="section">
+        <div className="section">
             <h2 className="sectionTitle">PROJECTS</h2>
             <div className="sectionContentZone">
                 <ProjectCard name="personal-website" thumbnail="project_personal-website.png" 

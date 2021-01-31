@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import styles from "./typewritter.module.scss";
 
 type properties = {
     currentTypingSpeed: number,

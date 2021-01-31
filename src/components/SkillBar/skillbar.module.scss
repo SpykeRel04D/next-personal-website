@@ -1,0 +1,67 @@
+@import "./../../styles/colors.scss";
+
+.skillBar {
+    position: relative;
+    width: 100%;
+    border-radius: 3px;
+    background: #eee;
+    margin: 6px 0px;
+    height: 36px;
+
+    .loadBar {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        border-radius: 3px;
+        
+        .titleBar {
+            display: flex;
+            align-items: center;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+
+            .titleTag {
+                color: white;
+                font-size: 0.75rem;
+                font-weight: 600;
+                margin: 0px 10px;
+            }
+        }
+    }
+
+    .percentage {
+        position: absolute;
+        margin-left: auto;
+        color: $color_dark01;
+        font-size: 0.7rem;
+        top: 10px;
+        right: 5px;
+    }
+}
+
+.SBlanguage {
+    .loadBar {
+        background:rgba(56, 150, 226, 0.6);
+        .titleBar {
+            background: rgb(56, 150, 226);
+        }
+    }
+}
+
+.SBtool {
+    .loadBar {
+        background: rgba(228, 114, 114, 0.6);
+        .titleBar {
+            background: rgb(228, 114, 114);
+        }
+    }
+}
+
+.SBalternate {
+    .loadBar {
+        background: rgba(105, 104, 179, 0.6);
+        .titleBar {
+            background: rgb(105, 104, 179);
+        }
+    }
+}

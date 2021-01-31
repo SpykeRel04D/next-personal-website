@@ -1,12 +1,12 @@
 import React, { useRef } from "react";
 
-import NavBar from "../components/navbar";
-import Home from "../components/views/home";
-import About from "../components/views/about";
-import Resume from "../components/views/resume";
-import Projects from "../components/views/projects";
-import Contact from "../components/views/contact";
-import Footer from "../components/views/footer";
+import NavBar from "../components/NavigationBar";
+import Home from "../components/views/Home/";
+import About from "../components/views/About/";
+import Resume from "../components/views/Resume/";
+import Projects from "../components/views/Projects/";
+import Contact from "../components/views/Contact/";
+import Footer from "../components/views/Footer/";
 
 export default function App() {
     const homeRef = useRef(null);

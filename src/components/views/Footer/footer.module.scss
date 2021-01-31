@@ -1,0 +1,81 @@
+@import "../../../styles/colors.scss";
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $color_dark02;
+
+    .top { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background: $color_custom01;
+        width: 44px;
+        height: 44px;
+        margin: 30px 0px 30px 0px;
+
+        .icon {
+            color: white;
+            width: 32px;
+            height: 32px;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            .icon {
+                color: $color_dark02;
+                transition: color 0.3s;
+            }
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .socialNetwork {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .iconSquare {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: $color_dark01;
+            width: 60px;
+            height: 60px;
+            margin: 20px 12px 15px 12px;
+
+            .icon {
+                color: #fff;
+                width: 30px;
+                height: 30px;
+            }
+
+            &:hover {
+                background: $color_custom01;
+                -webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.2);
+                -moz-box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.2);
+                box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.2);
+                transition: all 0.3s;
+            }
+        }
+    }
+
+    .credit {
+        margin: 15px 0px 30px 0px;
+        font-size: 0.7rem;
+        font-weight: 100;
+        color: #fff;
+
+        .highlight {
+            color: $color_custom01;
+        }
+    }
+}

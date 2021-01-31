@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
-import Tools from "../helpers/tools";
+import Tools from "../../helpers/tools";
+import styles from "./navbar.module.scss";
 
 export default function NavBar(props: { sections: any[]; }) {
     const navRef = useRef(null);
@@ -10,7 +11,7 @@ export default function NavBar(props: { sections: any[]; }) {
         let buttons = [];
         buttonsList.forEach((section) => {
             buttons.push(
-                <button type="button" className={`navButton ${currentSection === section.section ? "selected" : ""}`} key={"button_"+section.section} onClick={() => Tools.scrollTo(section.ref.current)}>
+                <button type="button" className={`${styles.navButton} ${currentSection === section.section ? styles.selected : ""}`} key={"button_"+section.section} onClick={() => Tools.scrollTo(section.ref.current)}>
                     {section.section}
                 </button>
             )
@@ -46,7 +47,7 @@ export default function NavBar(props: { sections: any[]; }) {
     },[currentSection]);
 
     return(
-        <header className="navBar" ref={navRef}>
+        <header className={styles.navBar} ref={navRef}>
             {props.sections !== null && addButtons()}
         </header>
     );
