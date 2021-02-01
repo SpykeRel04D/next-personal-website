@@ -1,4 +1,5 @@
 @import "../../../styles/colors.scss";
+@import "../../../styles/mediaqueries.scss";
 
 .home {
     display: flex;
@@ -52,4 +53,19 @@
             outline: none;
         }
     }
+
+    @include rwd(portable-devices) { 
+        .mainZone {
+            .presentation {
+                font-size: 3.0rem;
+            }
+        }
+
+        .visitWeb {
+            font-size: 1.0rem;
+            width: 160px;
+            height: 40px;
+            margin-top: 25px;
+        }
+    } 
 }
