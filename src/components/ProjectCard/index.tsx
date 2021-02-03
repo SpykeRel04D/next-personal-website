@@ -4,7 +4,11 @@ type backStructure = {
     title: string,
     description: string,
     year: number,
-    techs: string[]
+    techs: string[],
+    linked?: {
+        link: string,
+        icon: string
+    }
 }
 
 export default function ProjectCard(props: { name: string, thumbnail: string, back: backStructure }) {
@@ -23,6 +27,8 @@ export default function ProjectCard(props: { name: string, thumbnail: string, ba
         return icons;     
     }
 
+    if (props.back.linked) console.log(props.back.linked.link)
+
     return(
         <div className={styles.projectCardZone}>
             <div className={styles.projectCard}>
@@ -34,6 +40,11 @@ export default function ProjectCard(props: { name: string, thumbnail: string, ba
                     <div className={styles.shortDescription}>{props.back.description}</div>
                     <div className={styles.year}>{props.back.year}</div>
                     <div className={styles.techIcons}>{computeIcons()}</div>
+                    {props.back.linked && 
+                        <a className={styles.linkButton} href={props.back.linked.link} target="_blank">
+                            <img alt={props.back.linked.icon} src={"/links/"+props.back.linked.icon+".png"} />
+                        </a>
+                    }
                 </div>
             </div>
             

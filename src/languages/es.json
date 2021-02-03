@@ -54,7 +54,7 @@
                 "title": "Product Owner y Desarrollador Full-Stack de Cosmos Quest",
                 "center": "GaiaByte, FEB 2017 - JUL 2020",
                 "tasks": {
-                    "t1": "Organizar y decidir las proximas actualizaciones",
+                    "t1": "Organizar y decidir las próximas actualizaciones",
                     "t2": "Diseñar nuevos eventos y tomar decisiones a nivel de monetización",
                     "t3": "Programador principal de la parte del cliente del juego (Javascript - HTML5)",
                     "t4": "Co-Programador de la parte del Back-end del juego (NodeJS - PlayFab)"
@@ -64,9 +64,9 @@
                 "title": "QA Assistant",
                 "center": "SKARA - The Blade Remains, OCT 2016 - JAN 2017",
                 "tasks": {
-                    "t1": "Trabajar de manera conjunta con el equipo de diseño para mejorar las mecanicas del juego",
+                    "t1": "Trabajar de manera conjunta con el equipo de diseño para mejorar las mecánicas del juego",
                     "t2": "Identificar y reportar 'bugs' del juego",
-                    "t3": "Aprender a trabajar en un equipo multidisciplinario utilitzando metodologías 'Agile'"
+                    "t3": "Aprender a trabajar en un equipo multidisciplinario utilizando metodologías 'Agile'"
                 }
             }
         },
