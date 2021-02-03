@@ -1,0 +1,137 @@
+{
+    "navbar": {
+        "home": "INICI",
+        "about": "SOBRE MI",
+        "resume": "CV",
+        "projects": "PROJECTES",
+        "contact": "CONTACTE"
+    },
+    "enter": "Benvingut!",
+    "about": {
+        "title": "SOBRE MI",
+        "description": {
+            "p1": "Em dic <b>Roger Vidal</b> i soc un desenvolupador de <a href='https://en.wikipedia.org/wiki/Vilanova_i_la_Geltr%C3%BA'>Vilanova i la Geltrú</a>, una ciutat molt a prop de Barcelona.",
+            "p2": "Un cop finalitzat el batxillerat, vaig començar a estudiar Enginyeria en Telecomunicacions, però després de cert temps vaig decidir que no era el que m'esperava. Arribat a aquest punt, vaig decidir enfocar el meu futur en un àmbit més relacionat amb els continguts multimedia i la programació, cosa que em va portar a estudiar un Grau Universitari en Enginyeria de Continguts Digitals Interactius.",
+            "p3": "Quan vaig acabar els meus estudis universitaris, vaig començar a treballar en un petit projecte d'emprenedoria. Quan vam començar, només erem tres persones, però després d'un any vam arribar a ser unes quinze. Paral·lelament, durant aquesta etapa, vaig aprofitar el meu temps lliure per a estudiar un Màster Universitari en Aplicacions Multimèdia. Després de treure al mercat dos grans projectes, vam decidir tancar l'empresa.",
+            "p4": "Tot i que la meva experiència laboral es basi en el desenvolupament web, no m'agrada considerarme un Desenvolupador Web. Segons la meva opinió, a l'hora de programar el més important és tenir una base molt sólida que et permeti adaptar-te a qualsevol llenguatge. Gràcies a això, un desenvolupador ha de poder canviar entre diferents disciplines i cada dia aprendre coses noves.",
+            "p5": "A nivell personal, em considero un entusiasta dels esports. Durant tota la meva vida, he combinat el Hoquei sobre patins i l'esquí. He practicat l'hoquei per més de 20 anys, entre els quals, he disfrutat d'una etapa jugant a l'Ok lliga, considerada la millor lliga del món. El fet de jugar durant tant de temps en un esport d'equip, m'ha ajudat molt a nivell personal a aprendre a treballar conjuntament amb altres persones.",
+            "p6": "En el meu temps lliure, a part de practicar esport, aprofito per passar tot el temps possible amb la família i amics. Per altra banda, quan no tinc cap activitat prevista, m'encanta passar l'estona consumint tot tipus de sèries i pel·lícules. També, recentment, m'he aficionat a llegir novel·la fantàstica."
+        }
+    },
+    "resume": {
+        "title": "CURRÍCULUM",
+        "subtitles": {
+            "education": "EDUCACIÓ",
+            "experience": "EXPERIÈNCIA",
+            "languages": "IDIOMES",
+            "skills": "APTITUDS"
+        },
+        "education": {
+            "title": "EDUCACIÓ",
+            "element01": {
+                "title": "Màster en Aplicaciones Multimèdia",
+                "center": "Universitat Oberta de Catalunya (UOC), 2019-2021",
+                "long": "Màster Universitari en Aplicacions Multimèdia"
+            },
+            "element02": {
+                "title": "Grau en Continguts Digitals Interactius",
+                "center": "Universitat de Barcelona (UB), 2013-2017",
+                "long": "Grau Universitari d'Enginyeria en Continguts Digitals Interactius"
+            }
+        },
+        "experience": {
+            "title": "EXPERIÈNCIA",
+            "element01": {
+                "title": "Desenvolupador Front-End de Unity i encarregat de iOS a CQ-Mobile",
+                "center": "GaiaByte, OCT 2017 - JUL 2020",
+                "tasks": {
+                    "t1": "Co-dissenyar les mecàniques inicials i escriure documentació per al 'publisher'",
+                    "t2": "Integrar elements d'art mitjançant el programari 'Unity3D'",
+                    "t3": "Preparar el codi per a que el 'publisher' pugui publicar el joc en plataformes Apple (iOS)"
+                }
+            },
+            "element02": {
+                "title": "Product Owner i Desenvolupador Full-Stack de Cosmos Quest",
+                "center": "GaiaByte, FEB 2017 - JUL 2020",
+                "tasks": {
+                    "t1": "Organitzar i decidir les pròximes actualitzacions",
+                    "t2": "Dissenyar nous events i prendre decisions a nivell de monetització",
+                    "t3": "Programador principal de la part del client del joc (Javascript - HTML5)",
+                    "t4": "Co-Programador de la part del Back-end del joc (NodeJS - PlayFab)"
+                }
+            },
+            "element03": {
+                "title": "QA Assistant",
+                "center": "SKARA - The Blade Remains, OCT 2016 - JAN 2017",
+                "tasks": {
+                    "t1": "Treballar de manera conjunta amb l'equip de dissenyar per a millorar les mecàniques del joc",
+                    "t2": "Identificar i reportar 'bugs' del joc",
+                    "t3": "Aprendre a treballar en un equip multidisciplinari utilitzant metodologies 'Agile'"
+                }
+            }
+        },
+        "languages": {
+            "title": "IDIOMES",
+            "card01": {
+                "title": "ESPANYOL",
+                "level": "Llengua materna"
+            },
+            "card02": {
+                "title": "CATALÀ",
+                "level": "Llengua materna"
+            },
+            "card03": {
+                "title": "ANGLÈS",
+                "level": "Avançat"
+            },
+            "card04": {
+                "title": "FRANCÉS",
+                "level": "Bàsic"
+            }
+        },
+        "skills": {
+            "title": "APTITUDS",
+            "introduction": "Des de el meu punt de vista, en la industria tecnologica és molt més important saber resoldre problemes i tenir la capacitat d'aprendre coses noves, que el fet de ser expert un àmbit en concret. No obstant, ja que hi ha gent que li agrada poder tenir una visió general de les aptituds, a continuació es pot veure una llista sincera sobre alguna de les meves aptituds.",
+            "disclaimer": "Nota: Degut a que no crec que sigui possible saber-ho tot en cap de les aptituds llistades, 5 és equivalent a que em sento molt cómode amb ella, mentres que 1 significa que tan sols l'he provat en algun projecte personal."
+        }
+    },
+    "projects": {
+        "title": "PROJECTES",
+        "list": {
+            "project06": {
+                "title": "Pàgina Web Personal",
+                "description": "El princpal objectiu d'aquest projecte és tenir un mitjà on poder compartir el meu 'portfolio' i aprofitar per a tenir una primera experiencia amb NextJS i TypeScript. Tota la pàgina ha estat desenvolupada des de zero sense fer ús de plantilles."
+            },
+            "project05": {
+                "title": "Plataforma Web",
+                "description": "Aquest projecte és una plataforma web totalment escalable i personalitzable per a una gestoria. Tot el projecte ha estat desenvolupat de manera íntegra per mi, utilitzant ReactJS per al client, NodeJS (express) per la API-REST i MySQL per a la base de dades (MVC Model)."
+            },
+            "project04": {
+                "title": "Cosmos Quest Mobile",
+                "description": "Cosmos Quest Mobile és la segona versió de Cosmos Quest. Gràcies als bons resultats obtinguts en el primer joc, Kongregate ens va contactar com a 'publisher' per a desenvolupar un nou joc basat en l'original però per a dispositius mòbils, aquesta vegada en 'Pixel Art' i traballant de manera conjunta. El joc es va publicar a l'App Store i a la Play Store."
+            },
+            "project03": {
+                "title": "Cosmos Quest",
+                "description": "Cosmos Quest és un joc per a navegador web publicat a Kongregate, basat en l'escala de Kardashev, una teoria sobre l'evolució tecnologica basada en el consum energètic d'una civilització. El joc va ser desenvolupat per un equip de tres persones (2 programadors i 1 artista) en HTML5 (fent màxim ús de Canvas).\nEl joc va superar els 10.000.000 de 'gameplays' i gairebé 600.000 usuaris únics."
+            },
+            "project02": {
+                "title": "Project-IV",
+                "description": "Project-IV és un joc de misteri en primera persona, on el jugador ha de resoldre diferents tasques utilitzant elements del joc i elements de la vida real. El concepte principal del joc, és que s'utilitzen tecnologies com correus electrònics, geo-localització, pàgines web, etc.. per tal de poder resoldre puzzles de dintre el joc. Aquest joc va ser desenvolupat per un equip de quatre persones, com a resultat del treball de final de carrera (no publicat)."
+            },
+            "project01": {
+                "title": "Hoogs",
+                "description": "Hoogs és un simulador de mascotes intel·ligents per a dispositius mòbils. Els hoogs, son entranyables criatures molt intel·ligents. L'objectiu principal del jugador és tenir cura d'un Hoog alimentant-lo, educant-lo i jugant amb ell. Durant el joc, el jugador tindrà diferent criatures, cadascuna amb la seva personalitat. \nAquest projecte va estar desarrollat per un equip de quatre persones, però es va cancel·lar abans de ser publicat."
+            }
+        }
+    },
+    "contact": {
+        "title": "CONTACTE",
+        "form": {
+            "name": "El teu nom..",
+            "mail": "El teu correu..",
+            "message": "Escriu alguna cosa..",
+            "submit": "Enviar"
+        },
+        "cv": "Decarregar CV (PDF)" 
+    }
+}

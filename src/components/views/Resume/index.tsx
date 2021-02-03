@@ -1,102 +1,104 @@
+import { useContext } from 'react';
+import { LanguageContext } from '../../../context/languageContext';
 import SkillBar from "../../SkillBar/";
 import styles from "./resume.module.scss";
 
 export default function Resume() {
+    const { dictionary } = useContext(LanguageContext);
     return(
         <div className={`section ${styles.resume}`}>
-            <h2 className="sectionTitle">RESUME</h2>
+            <h2 className="sectionTitle">{dictionary.resume.title}</h2>
             <div className="sectionContentZone">
                 <ul className={styles.subSectionsList}>
-                    <li className={styles.subSectionElement}>EDUCATION</li>
-                    <li className={styles.subSectionElement}>EXPERIENCE</li>
-                    <li className={styles.subSectionElement}>LANGUAGES</li>
-                    <li className={styles.subSectionElement}>SKILLS</li>
+                    <li className={styles.subSectionElement}>{dictionary.resume.subtitles.education}</li>
+                    <li className={styles.subSectionElement}>{dictionary.resume.subtitles.experience}</li>
+                    <li className={styles.subSectionElement}>{dictionary.resume.subtitles.languages}</li>
+                    <li className={styles.subSectionElement}>{dictionary.resume.subtitles.skills}</li>
                 </ul>
                 <div className={styles.subSectionDiv}>
-                    <h4 className={styles.title}>EDUCATION</h4>
+                    <h4 className={styles.title}>{dictionary.resume.education.title}</h4>
                     <div className={styles.entry}>
-                        <b className={styles.etitle}>M.S. in Multimedia Applications</b>
-                        <b className={styles.eSubTitle}>Universitat Oberta de Catalunya (UOC), 2019-2021</b>
-                        <p className={styles.edescription}>University Master's Degree in Multimedia Applications / Master Universitario en Aplicaciones Multimedia.</p>
+                        <b className={styles.etitle}>{dictionary.resume.education.element01.title}</b>
+                        <b className={styles.eSubTitle}>{dictionary.resume.education.element01.center}</b>
+                        <p className={styles.edescription}>{dictionary.resume.education.element01.long}</p>
                     </div>
                     <hr />
                     <div className={styles.entry}>
-                        <b className={styles.etitle}>B.E. in Interactive Digital Content, Game and Interactive Media Design</b>
-                        <b className={styles.eSubTitle}>Universitat de Barcelona (UB), 2013-2017</b>
-                        <p className={styles.edescription}>Bachelor's of Engineering in Interactive Digital Content / Grado Universitario en videojuegos y nuevas tecnologías.</p>
+                        <b className={styles.etitle}>{dictionary.resume.education.element02.title}</b>
+                        <b className={styles.eSubTitle}>{dictionary.resume.education.element02.center}</b>
+                        <p className={styles.edescription}>{dictionary.resume.education.element02.long}</p>
                     </div>
                 </div>
                 <div className={styles.subSectionDiv}>
-                    <h4 className={styles.title}>EXPERIENCE</h4>
+                    <h4 className={styles.title}>{dictionary.resume.experience.title}</h4>
                     <div className={styles.entry}>
-                        <b className={styles.etitle}>Unity Front-End Developer and iOs Publisher of CQ-Mobile</b>
-                        <b className={styles.eSubTitle}>GaiaByte, OCT 2017 - JUL 2020</b>
+                        <b className={styles.etitle}>{dictionary.resume.experience.element01.title}</b>
+                        <b className={styles.eSubTitle}>{dictionary.resume.experience.element01.center}</b>
                         <ul className={styles.tasks}>
-                            <li>Co-design the game mechanics and write documents for the publisher</li>
-                            <li>Integrate UI assets in the game using Unity3D</li>
-                            <li>Prepare the code to deploy and publish the game on the Apple Store</li>
+                            <li>{dictionary.resume.experience.element01.tasks.t1}</li>
+                            <li>{dictionary.resume.experience.element01.tasks.t2}</li>
+                            <li>{dictionary.resume.experience.element01.tasks.t3}</li>
                         </ul>
                     </div>
                     <hr />
                     <div className={styles.entry}>
-                        <b className={styles.etitle}>Product Owner and Developer of Cosmos Quest</b>
-                        <b className={styles.eSubTitle}>GaiaByte, FEB 2017 - JUL 2020</b>
+                        <b className={styles.etitle}>{dictionary.resume.experience.element02.title}</b>
+                        <b className={styles.eSubTitle}>{dictionary.resume.experience.element02.center}</b>
                         <ul className={styles.tasks}>
-                            <li>Organize and decide the upcomming updates</li>
-                            <li>Design new events and take monetize decisions</li>
-                            <li>Main programmer for the client-side of the game (JavaScript)</li>
-                            <li>Co-programmer of the back-end of the game (NodeJS - PlayFab)</li>
+                            <li>{dictionary.resume.experience.element02.tasks.t1}</li>
+                            <li>{dictionary.resume.experience.element02.tasks.t2}</li>
+                            <li>{dictionary.resume.experience.element02.tasks.t3}</li>
+                            <li>{dictionary.resume.experience.element02.tasks.t4}</li>
                         </ul>
                     </div>
                     <hr />
                     <div className={styles.entry}>
-                        <b className={styles.etitle}>QA Assistant</b>
-                        <b className={styles.eSubTitle}>SKARA - The Blade Remains, OCT 2016 - JAN 2017</b>
+                        <b className={styles.etitle}>{dictionary.resume.experience.element03.title}</b>
+                        <b className={styles.eSubTitle}>{dictionary.resume.experience.element03.center}</b>
                         <ul className={styles.tasks}>
-                            <li>Work with the game-design team in order to improve game mechanics</li>
-                            <li>Identify and report bugs of the game</li>
-                            <li>Learn to work in a big team using Agile methods</li>
+                            <li>{dictionary.resume.experience.element03.tasks.t1}</li>
+                            <li>{dictionary.resume.experience.element03.tasks.t2}</li>
+                            <li>{dictionary.resume.experience.element03.tasks.t3}</li>
                         </ul>
                     </div>
                 </div>
                 <div className={styles.subSectionDiv}>
-                    <h4 className={styles.title}>LANGUAGES</h4>
+                    <h4 className={styles.title}>{dictionary.resume.languages.title}</h4>
                     <ul className={styles.languageList}>
                         <li className={styles.languageCard}>
                             <img className={styles.flag} src="/spanish.png" alt="Spanish flag" />
-                            <b className={styles.language}>SPANISH</b>
+                            <b className={styles.language}>{dictionary.resume.languages.card01.title}</b>
                             <p className={styles.level}>
-                                Native Speaer
+                                {dictionary.resume.languages.card01.level}
                             </p>
                         </li>
                         <li className={styles.languageCard}>
                             <img className={styles.flag} src="/catalan.png" alt="Catalan flag" />
-                            <b className={styles.language}>CATALAN</b>
+                            <b className={styles.language}>{dictionary.resume.languages.card02.title}</b>
                             <p className={styles.level}>
-                                Native Speaker
+                                {dictionary.resume.languages.card02.level}
                             </p>
                         </li>
                         <li className={styles.languageCard}>
                             <img className={styles.flag} src="/english.png" alt="English flag" />
-                            <b className={styles.language}>ENGLISH</b>
+                            <b className={styles.language}>{dictionary.resume.languages.card03.title}</b>
                             <p className={styles.level}>
-                                Business Level
+                                {dictionary.resume.languages.card03.level}
                             </p>
                         </li>
                         <li className={styles.languageCard}>
                             <img className={styles.flag} src="/french.png" alt="French flag" />
-                            <b className={styles.language}>FRENCH</b>
+                            <b className={styles.language}>{dictionary.resume.languages.card04.title}</b>
                             <p className={styles.level}>
-                                Basic Knowledge
+                                {dictionary.resume.languages.card04.level}
                             </p>
                         </li>
                     </ul>
                 </div>
                 <div className={styles.subSectionDiv}>
-                    <h4 className={styles.title}>SKILLS</h4>
+                    <h4 className={styles.title}>{dictionary.resume.skills.title}</h4>
                     <p className={styles.skillsIntroduction}>
-                        In my opinion, on the developer's industry, the most important thing is the ability to be able to use your knowledge to solve problems by learning and investigating.
-                        However, since some people like to have an overview of developer's skills, here is a mostly honest list of mine.
+                        {dictionary.resume.skills.introduction}
                     </p>
                     <div className={styles.skillsZone}>
                         <SkillBar tag={"C++"} percentage={40} label={"2/5"} type="language" />
@@ -107,6 +109,7 @@ export default function Resume() {
                         <SkillBar tag={"GraphQL"} percentage={20} label={"1/5"} type="language" />
                         <SkillBar tag={"HTML+CSS/SCSS/SASS"} percentage={60} label={"3/5"} type="language"/>
                         <SkillBar tag={"JavaScript"} percentage={100} label={"5/5"} type="language" />
+                        <SkillBar tag={"jQuery"} percentage={60} label={"3/5"} type="alternate" />
                         <SkillBar tag={"Laravel"} percentage={20} label={"1/5"} type="tools" />
                         <SkillBar tag={"Lua"} percentage={40} label={"2/5"} type="language" />
                         <SkillBar tag={"Next.JS"} percentage={40} label={"2/5"} type="alternate" />
@@ -122,7 +125,7 @@ export default function Resume() {
                         <SkillBar tag={"WordPress"} percentage={20} label={"1/5"} type="tools" />
                     </div>
                     <p className={styles.skillsDisclosure}>
-                        <b>Note:</b> Since I don't believe that is possible to known everything in any of the listed skills, 5 is equal to pretty confident and 1 means that I just tried it once in some personal projects.
+                        {dictionary.resume.skills.disclaimer}
                     </p>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useContext } from "react";
 
 import NavBar from "../components/NavigationBar";
 import Home from "../components/views/Home/";
@@ -8,7 +8,10 @@ import Projects from "../components/views/Projects/";
 import Contact from "../components/views/Contact/";
 import Footer from "../components/views/Footer/";
 
+import { LanguageContext } from './../context/languageContext';
+
 export default function App() {
+    const { dictionary } = useContext(LanguageContext);
     const homeRef = useRef(null);
     const aboutRef = useRef(null);
     const resumeRef = useRef(null);
@@ -16,12 +19,13 @@ export default function App() {
     const contactRef = useRef(null);
 
     const appSections = [
-        { section: "HOME", ref: homeRef },
-        { section: "ABOUT", ref: aboutRef },
-        { section: "RESUME", ref: resumeRef },
-        { section: "PROJECTS", ref: projectsRef },
-        { section: "CONTACT", ref: contactRef },
+        { section: dictionary.navbar.home, ref: homeRef },
+        { section: dictionary.navbar.about, ref: aboutRef },
+        { section: dictionary.navbar.resume, ref: resumeRef },
+        { section: dictionary.navbar.projects, ref: projectsRef },
+        { section: dictionary.navbar.contact, ref: contactRef },
     ];
+
     return (
         <div>
             <section ref={homeRef}><Home about={aboutRef} /></section>

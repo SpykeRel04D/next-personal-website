@@ -9,6 +9,12 @@
     background-color: $color_dark01;
     height: 100vh;
 
+    .languageSwitcher {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
     .mainZone {
         display: flex;
         flex-direction: column;

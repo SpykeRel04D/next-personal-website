@@ -21,7 +21,7 @@ export default function TypeWritter(props: { input:string[], typingSpeed?:number
         iteration: 0,
         text: "",
         message: ""
-    })
+    });
 
     function getCurrentText(currentState:properties) {
         return currentState.isDeleting

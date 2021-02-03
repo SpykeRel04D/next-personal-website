@@ -1,0 +1,137 @@
+{
+    "navbar": {
+        "home": "HOME",
+        "about": "ABOUT",
+        "resume": "RESUME",
+        "projects": "PROJECTS",
+        "contact": "CONTACT"
+    },
+    "enter": "Take a look!",
+    "about": {
+        "title": "ABOUT",
+        "description": {
+            "p1": "My name is <b>Roger Vidal</b> and I am a developer from <a href='https://en.wikipedia.org/wiki/Vilanova_i_la_Geltr%C3%BA'>Vilanova i la Geltrú</a>, a city very close to Barcelona (Spain).",
+            "p2": "After finishing High School, I decided to study Telecommunications engineering, but after a few months, I realized that it wasn't what I expected. At this point, I decided that I wanted to study something more related to programming and multimedia. For this reason, I started a B.E. in Interactive Digital Content, Game and Interactive Media Design.",
+            "p3": "When I finished my degree, I started to work in a small startup of game development. In the beginning, we were only three employees, but after a year, we were almost fifteen employees. Also, during this stage, I spent my free time cursing an M.S in Multimedia Applications. After releasing two big projects, we decided to close the company.",
+            "p4": "Although my work experience is focused on Web Development, I don't like to consider myself a web developer. In my opinion, the most important ability of a programmer is to be able to research and learn every time you code, because you have a good base. With this, you can swap between code disciplines, and every day you can learn something new.",
+            "p5": "I would consider myself a sport passionate and I've been practicing all kinds of sports since a very young age. During all my life, I have combined Roller Hockey and Skiing. I played Roller Hockey for more than 20 years, including a short stage playing in the maximum category ('Ok Lliga'), considered the best league in the world. Playing all this time on a team-based sport has been very useful to me in working with other people.",
+            "p6": "In my spare time, apart from practicing sport, I love spending time with friends and family doing any crazy plans. On the other hand, when I'm alone, I love to watch TV Shows and movies, and recently I have discovered a passion to read any kind of fantasy book."
+        }
+    },
+    "resume": {
+        "title": "RESUME",
+        "subtitles": {
+            "education": "EDUCATION",
+            "experience": "EXPERIENCE",
+            "languages": "LANGUAGES",
+            "skills": "SKILLS"
+        },
+        "education": {
+            "title": "EDUCATION",
+            "element01": {
+                "title": "M.S. in Multimedia Applications",
+                "center": "Universitat Oberta de Catalunya (UOC), 2019-2021",
+                "long": "University Master's Degree in Multimedia Applications"
+            },
+            "element02": {
+                "title": "B.E. in Interactive Digital Content, Game and Interactive Media Design",
+                "center": "Universitat de Barcelona (UB), 2013-2017",
+                "long": "Bachelor's of Engineering in Interactive Digital Content"
+            }
+        },
+        "experience": {
+            "title": "EXPERIENCE",
+            "element01": {
+                "title": "Unity Front-End Developer and iOs Publisher of CQ-Mobile",
+                "center": "GaiaByte, OCT 2017 - JUL 2020",
+                "tasks": {
+                    "t1": "Co-design the initial game mechanics and write documents for the publisher",
+                    "t2": "Integrate UI assets in the game using Unity3D",
+                    "t3": "Prepare the code to deploy and publish the game on the Apple Store"
+                }
+            },
+            "element02": {
+                "title": "Product Owner and Full-Stack Developer of Cosmos Quest",
+                "center": "GaiaByte, FEB 2017 - JUL 2020",
+                "tasks": {
+                    "t1": "Organize and decide the upcomming updates",
+                    "t2": "Design new events and take monetize decisions",
+                    "t3": "Client-side main programmer of the game (JavaScript)",
+                    "t4": "Co-programmer of the back-end of the game (NodeJS - PlayFab)"
+                }
+            },
+            "element03": {
+                "title": "QA Assistant",
+                "center": "SKARA - The Blade Remains, OCT 2016 - JAN 2017",
+                "tasks": {
+                    "t1": "Work with the game-design team in order to improve game mechanics",
+                    "t2": "Identify and report game bugs",
+                    "t3": "Learn to work in a multidisciplinary team using Agile methods"
+                }
+            }
+        },
+        "languages": {
+            "title": "LANGUAGES",
+            "card01": {
+                "title": "SPANISH",
+                "level": "Native Speaker"
+            },
+            "card02": {
+                "title": "CATALAN",
+                "level": "Native Speaker"
+            },
+            "card03": {
+                "title": "ENGLISH",
+                "level": "Business Level"
+            },
+            "card04": {
+                "title": "FRENCH",
+                "level": "Basic Knowledge"
+            }
+        },
+        "skills": {
+            "title": "SKILLS",
+            "introduction": "In my opinion, on the developer's industry, the most important thing is the ability to be able to use your knowledge to solve problems by learning and investigating. However, since some people like to have an overview of developer's skills, here is a mostly honest list of mine.",
+            "disclaimer": "Note: Since I don't believe that is possible to known everything in any of the listed skills, 5 is equal to pretty confident and 1 means that I just tried it once in some personal projects."
+        }
+    },
+    "projects": {
+        "title": "PROJECTS",
+        "list": {
+            "project06": {
+                "title": "Personal Website",
+                "description": "The main idea of this website is to have a way to share a little bit about me in the same time that I have a first experience with NextJS and TypeScript. All the website has been developed without using any template."
+            },
+            "project05": {
+                "title": "Web Platform",
+                "description": "This project consist in a web platform to work as a client portal for a Consultant Firm, that is 100% scalable and personalitzable. All the project has been developed only by me on ReactJS and a NodeJS API Rest that takes all the data from a MySQL server (MVC Model)."
+            },
+            "project04": {
+                "title": "Cosmos Quest Mobile",
+                "description": "Cosmos Quest Mobile is the second version of Cosmos Quest. Due to the good results obtained on the original game, Kongregate contacted to us in a Publisher role in order to develop a new game for mobile devices, this time in pixel art and working toguether. The game is published on the App Store and Play Store."
+            },
+            "project03": {
+                "title": "Cosmos Quest",
+                "description": "Cosmos Quest is a Web Browser game published on Kongregate, based on the Kardashev Scale, a theory about technological advanced based on the energy usage of a Civilization. The game was developed by a team of three (2 programmers and 1 artist) in HTML5 (making full use of Canvas).\nThe game had more than 10.000.000 gameplays and almost 600.000 unique players."
+            },
+            "project02": {
+                "title": "Project-IV",
+                "description": "Project-IV is a mistery first person adventure where the player will have to complete a list of tasks that will mix game elements and real live elements. The main concept, is that the game uses technologies like web platforms, mail servers, geo-localitzation, etc.. to solve these puzzles. This game was developed by a team of 4 people, as a result of a degree final project (non-published)."
+            },
+            "project01": {
+                "title": "Hoogs",
+                "description": "Hoogs is an intelligent pet simulator for mobile devices. Hoogs are a lovely creatures and very inteligents. The main objective of the player is to take care of them by feeding, educating and playing with them. During the game, the player will have multiple Hoogs that every single one will have his own personality. \nThis project was developed by a team of four, but it was canceled before publish it."
+            }
+        }
+    },
+    "contact": {
+        "title": "CONTACT",
+        "form": {
+            "name": "Your name..",
+            "mail": "Your mail..",
+            "message": "Write something..",
+            "submit": "Submit"
+        },
+        "cv": "Download CV (PDF)" 
+    }
+}

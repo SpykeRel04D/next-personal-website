@@ -1,0 +1,31 @@
+@import "./../../styles/colors.scss";
+@import "./../../styles/mediaqueries.scss";
+
+.switcher {
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        li {
+            float: left;
+            color: white;
+            margin: 0 3px;
+
+            &:hover {
+                cursor: pointer;
+                font-weight: bold;
+                color: $color_custom01;
+            }
+        }
+        
+        .selected {
+            color: $color_custom01;
+        }
+        
+    }
+
+    
+}
