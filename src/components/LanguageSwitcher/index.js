@@ -5,7 +5,7 @@ import styles from "./languageswitcher.module.scss";
 
 export default function LanguageSwitcher () {
     const { userLanguage, userLanguageChange } = useContext(LanguageContext);
-    const handleLanguageChange = (language: string) => userLanguageChange(language);
+    const handleLanguageChange = (language) => userLanguageChange(language);
 
     useEffect(() => {
         let defaultLanguage = localStorage.getItem('rcml-lang');
