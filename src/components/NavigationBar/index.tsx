@@ -1,10 +1,13 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useContext } from "react";
+import LanguageSwitcher from './../LanguageSwitcher';
+import { LanguageContext } from './../../context/languageContext';
 import Tools from "../../helpers/tools";
 import styles from "./navbar.module.scss";
 
 export default function NavBar(props: { sections: any[]; }) {
     const navRef = useRef(null);
     const [currentSection, setCurrentSection] = useState();
+    const { dictionary } = useContext(LanguageContext);
 
     function addButtons() {
         const buttonsList = props.sections;
@@ -49,6 +52,7 @@ export default function NavBar(props: { sections: any[]; }) {
     return(
         <header className={styles.navBar} ref={navRef}>
             {props.sections !== null && addButtons()}
+            <div className={styles.languageSwitcher}><LanguageSwitcher /></div>
         </header>
     );
 }

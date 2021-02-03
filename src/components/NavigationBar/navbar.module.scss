@@ -42,6 +42,12 @@
         color: $color_custom01;
     }
 
+    .languageSwitcher {
+        margin-left: auto;
+        margin-right: 10px;
+        align-self: center;
+    }
+
     @include rwd(portable-devices) { 
         padding-left: 0px;
         justify-content: center;
@@ -49,6 +55,10 @@
         .navButton {
             margin: auto 2px;
             font-size: 1rem;
+        }
+
+        .languageSwitcher {
+            display: none;
         }
     }
 

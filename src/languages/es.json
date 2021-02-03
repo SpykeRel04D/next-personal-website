@@ -47,7 +47,7 @@
                 "tasks": {
                     "t1": "Co-diseñar las mecánicas iniciales y redactar documentación para el 'publisher'",
                     "t2": "Integrar elementos de arte mediante el programario 'Unity3D'",
-                    "t3": "Preparar el codigo para que el 'publisher' pueda publicar el juego en plataformas Apple (iOS)",
+                    "t3": "Preparar el código para que el 'publisher' pueda publicar el juego en plataformas Apple (iOS)",
                     "t4": "Resolver los 'tickets' de los jugadores (Zendesk Support)"
                 }
             },
