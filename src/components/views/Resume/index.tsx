@@ -38,6 +38,7 @@ export default function Resume() {
                             <li>{dictionary.resume.experience.element01.tasks.t1}</li>
                             <li>{dictionary.resume.experience.element01.tasks.t2}</li>
                             <li>{dictionary.resume.experience.element01.tasks.t3}</li>
+                            <li>{dictionary.resume.experience.element01.tasks.t4}</li>
                         </ul>
                     </div>
                     <hr />

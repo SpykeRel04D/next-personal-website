@@ -47,7 +47,8 @@
                 "tasks": {
                     "t1": "Co-design the initial game mechanics and write documents for the publisher",
                     "t2": "Integrate UI assets in the game using Unity3D",
-                    "t3": "Prepare the code to deploy and publish the game on the Apple Store"
+                    "t3": "Prepare the code to deploy and publish the game on the Apple Store",
+                    "t4": "Offer support to players via 'tickets' (Zendesk Support)"
                 }
             },
             "element02": {
