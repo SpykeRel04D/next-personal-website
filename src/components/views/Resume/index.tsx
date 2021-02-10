@@ -123,6 +123,7 @@ export default function Resume() {
                         <SkillBar tag={"TypeScript"} percentage={40} label={"2/5"} type="language" />
                         <SkillBar tag={"Unity 3D"} percentage={60} label={"3/5"} type="tools" />
                         <SkillBar tag={"Unreal Engine"} percentage={60} label={"3/5"} type="tools" />
+                        <SkillBar tag={"Webpack"} percentage={40} label={"2/5"} type="tools" />
                         <SkillBar tag={"WordPress"} percentage={20} label={"1/5"} type="tools" />
                     </div>
                     <p className={styles.skillsDisclosure}>
