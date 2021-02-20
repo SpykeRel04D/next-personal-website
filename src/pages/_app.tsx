@@ -14,9 +14,9 @@ function MyApp({ Component, pageProps }) {
 					<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 					<meta name="twitter:card" content="summary_large_image" />
 					<meta name="twitter:site" content="@SpykeRel04D" />
-					<meta name="twitter:title" content="Roger Vidal - Developer" />
-					<meta name="twitter:description" content="Personal Web Page of Roger Vidal - Developer" />
-					<meta name="twitter:image" content="https://i.imgur.com/nXyDF29.jpg" />
+					<meta name="og:title" content="Roger Vidal - Developer" />
+					<meta name="og:description" content="Personal Web Page of Roger Vidal - Developer" />
+					<meta name="og:image" content="https://i.imgur.com/nXyDF29.jpg" />
 					<title>Roger Vidal - Developer</title>
 				</Head>
 				<Component {...pageProps} />
