@@ -16,7 +16,7 @@ export default function Resume() {
 					<li className={styles.subSectionElement}>{dictionary.resume.subtitles.skills}</li>
 				</ul>
 				<div className={styles.subSectionDiv}>
-					<h4 className={styles.title}>{dictionary.resume.education.title}</h4>
+					<h3 className={styles.title}>{dictionary.resume.education.title}</h3>
 					<div className={styles.entry}>
 						<b className={styles.etitle}>{dictionary.resume.education.element01.title}</b>
 						<b className={styles.eSubTitle}>{dictionary.resume.education.element01.center}</b>
@@ -30,7 +30,7 @@ export default function Resume() {
 					</div>
 				</div>
 				<div className={styles.subSectionDiv}>
-					<h4 className={styles.title}>{dictionary.resume.experience.title}</h4>
+					<h3 className={styles.title}>{dictionary.resume.experience.title}</h3>
 					<div className={styles.entry}>
 						<b className={styles.etitle}>{dictionary.resume.experience.element01.title}</b>
 						<b className={styles.eSubTitle}>{dictionary.resume.experience.element01.center}</b>
@@ -64,7 +64,7 @@ export default function Resume() {
 					</div>
 				</div>
 				<div className={styles.subSectionDiv}>
-					<h4 className={styles.title}>{dictionary.resume.languages.title}</h4>
+					<h3 className={styles.title}>{dictionary.resume.languages.title}</h3>
 					<ul className={styles.languageList}>
 						<li className={styles.languageCard}>
 							<img className={styles.flag} src="/spanish.png" alt="Spanish flag" />
@@ -89,7 +89,7 @@ export default function Resume() {
 					</ul>
 				</div>
 				<div className={styles.subSectionDiv}>
-					<h4 className={styles.title}>{dictionary.resume.skills.title}</h4>
+					<h3 className={styles.title}>{dictionary.resume.skills.title}</h3>
 					<p className={styles.skillsIntroduction}>{dictionary.resume.skills.introduction}</p>
 					<div className={styles.skillsZone}>
 						<SkillBar tag={"C++"} percentage={40} label={"2/5"} type="language" />

@@ -10,7 +10,7 @@ export default function Projects() {
 			<div className="sectionContentZone">
 				<ProjectCard
 					name="personal-website"
-					thumbnail="project_personal-website.jpg"
+					thumbnail="project_personal-website.jpeg"
 					back={{
 						title: dictionary.projects.list.project06.title,
 						description: dictionary.projects.list.project06.description,
@@ -21,7 +21,7 @@ export default function Projects() {
 				/>
 				<ProjectCard
 					name="consultant-firm"
-					thumbnail="project_consultant-firm.jpg"
+					thumbnail="project_consultant-firm.jpeg"
 					back={{
 						title: dictionary.projects.list.project05.title,
 						description: dictionary.projects.list.project05.description,
@@ -31,7 +31,7 @@ export default function Projects() {
 				/>
 				<ProjectCard
 					name="cq-mobile"
-					thumbnail="project_cq-mobile.jpg"
+					thumbnail="project_cq-mobile.jpeg"
 					back={{
 						title: dictionary.projects.list.project04.title,
 						description: dictionary.projects.list.project04.description,
@@ -42,7 +42,7 @@ export default function Projects() {
 				/>
 				<ProjectCard
 					name="cosmosquest"
-					thumbnail="project_cosmosquest.jpg"
+					thumbnail="project_cosmosquest.jpeg"
 					back={{
 						title: dictionary.projects.list.project03.title,
 						description: dictionary.projects.list.project03.description,
@@ -56,7 +56,7 @@ export default function Projects() {
 				/>
 				<ProjectCard
 					name="project-iv"
-					thumbnail="project_project-iv.jpg"
+					thumbnail="project_project-iv.jpeg"
 					back={{
 						title: dictionary.projects.list.project02.title,
 						description: dictionary.projects.list.project02.description,
@@ -70,7 +70,7 @@ export default function Projects() {
 				/>
 				<ProjectCard
 					name="hoogs"
-					thumbnail="project_hoogs.jpg"
+					thumbnail="project_hoogs.jpeg"
 					back={{
 						title: dictionary.projects.list.project01.title,
 						description: dictionary.projects.list.project01.description,

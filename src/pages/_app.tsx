@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
 					<meta name="twitter:site" content="@SpykeRel04D" />
 					<meta name="twitter:title" content="Roger Vidal - Developer" />
 					<meta name="twitter:description" content="Personal Web Page of Roger Vidal - Developer" />
-					<meta name="twitter:image" content="/LinkedinBannerLargeV1.jpg" />
+					<meta name="twitter:image" content={`/LinkedinBannerLargeV1.jpeg`} />
 					<title>Roger Vidal - Developer</title>
 				</Head>
 				<Component {...pageProps} />
