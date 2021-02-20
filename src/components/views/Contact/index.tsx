@@ -23,7 +23,13 @@ export default function Contact() {
 					name="contactmail"
 					placeholder={dictionary.contact.form.mail}
 				/>
-				<textarea id="subject" name="subject" rows={10} placeholder={dictionary.contact.form.message} />
+				<textarea
+					aria-label="Write your message here"
+					id="subject"
+					name="subject"
+					rows={10}
+					placeholder={dictionary.contact.form.message}
+				/>
 
 				<input type="submit" aria-label="Send contact form" value={dictionary.contact.form.submit} />
 			</form>

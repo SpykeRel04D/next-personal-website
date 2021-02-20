@@ -1,138 +1,139 @@
 {
-    "navbar": {
-        "home": "INICIO",
-        "about": "SOBRE MÍ",
-        "resume": "CV",
-        "projects": "PROYECTOS",
-        "contact": "CONTACTO"
-    },
-    "enter": "Bienvenido!",
-    "about": {
-        "title": "SOBRE MÍ",
-        "description": {
-            "p1": "Mi nombre es <b>Roger Vidal</b> y soy un desarrollador de <a href='https://en.wikipedia.org/wiki/Vilanova_i_la_Geltr%C3%BA'>Vilanova i la Geltrú</a>, una ciudad muy cercana a Barcelona.",
-            "p2": "Cuando terminé el bachillerato, decidí estudiar Ingeniería en Telecomunicaciones, pero al cabo de un tiempo me di cuenta de que no era lo que me esperaba. Llegados a este punto, decidí que queria enfocar mi futuro hacia un ámbito más relacionado con los contenidos multimedia y la programación, por lo que empezé a estudiar un Grado Universitario de Ingeniería en Contenidos Digitales Interactivos.",
-            "p3": "Una vez terminé mis estudios universitarios, empezé a trabajar en un pequeño proyecto de emprendeduría de desarrollo de videojuegos. Al principio éramos tres integrantes, pero al cabo de un año, llegamos a ser unos quinze. Durante esta etapa, en mi tiempo libre, aprovechhé para estudiar un Máster Universitario en Aplicaciones Multimedia. Después de sacar al mercado dos grandes proyectos, tomamos la decisión de cerrar la empresa.",
-            "p4": "Aunque mi experiencia laboral se centra en el desarrollo web, no me gusta considerarme un Desarrollador Web. En mi opinión, lo más importante para un programador es tener una base muy sólida y así poder adaptarse de manera senzilla a cualquier lenguaje. Gracias a esto, una desarrollador debe poder cambiar entre distintas disciplinas y cada día poder aprender alguna cosa nueva.",
-            "p5": "A nivel personal, me considero una persona muy activa a nivel deportivo. Durante toda mi vida, he combinado el Hockey sobre patínes y el esquí. He jugado al hockey por más de 20 años, entre los quales llegué a jugar durante una temporada en la 'Ok Lliga', considerada la mejor liga del mundo. Jugar durante tanto tiempo a un deporte de equipo, me ha ayudado mucho a nivel personal para poder trabajar juntamente con otras personas.",
-            "p6": "En mi tiempo libre, a parte de practicar deporte, aprovecho para pasar todo el tiempo posible con mi família y amigos. Por otro lado, cuando no tengo ningún plan, me encanta ver todo tipo de séries y peliculas. También, recientemente, me he aficionado a leer novela fantástica."
-        }
-    },
-    "resume": {
-        "title": "CURRÍCULUM",
-        "subtitles": {
-            "education": "EDUCACIÓN",
-            "experience": "EXPERIENCIA",
-            "languages": "IDIOMAS",
-            "skills": "APTITUDES"
-        },
-        "education": {
-            "title": "EDUCACIÓN",
-            "element01": {
-                "title": "Máster en Aplicaciones Multimedia",
-                "center": "Universitat Oberta de Catalunya (UOC), 2019-2021",
-                "long": "Máster Universitario en Aplicaciones Multimedia"
-            },
-            "element02": {
-                "title": "Grado en Contenidos Digitales Interactivos",
-                "center": "Universitat de Barcelona (UB), 2013-2017",
-                "long": "Grado Universitario en Ingeniería de Contenidos Digitales Interactivos"
-            }
-        },
-        "experience": {
-            "title": "EXPERIENCIA",
-            "element01": {
-                "title": "Desarrollador Front-End de Unity y encargado de iOS a CQ-Mobile",
-                "center": "GaiaByte, OCT 2017 - JUL 2020",
-                "tasks": {
-                    "t1": "Co-diseñar las mecánicas iniciales y redactar documentación para el 'publisher'",
-                    "t2": "Integrar elementos de arte mediante el programario 'Unity3D'",
-                    "t3": "Preparar el código para que el 'publisher' pueda publicar el juego en plataformas Apple (iOS)",
-                    "t4": "Resolver los 'tickets' de los jugadores (Zendesk Support)"
-                }
-            },
-            "element02": {
-                "title": "Product Owner y Desarrollador Full-Stack de Cosmos Quest",
-                "center": "GaiaByte, FEB 2017 - JUL 2020",
-                "tasks": {
-                    "t1": "Organizar y decidir las próximas actualizaciones",
-                    "t2": "Diseñar nuevos eventos y tomar decisiones a nivel de monetización",
-                    "t3": "Programador principal de la parte del cliente del juego (Javascript - HTML5)",
-                    "t4": "Co-Programador de la parte del Back-end del juego (NodeJS - PlayFab)"
-                }
-            },
-            "element03": {
-                "title": "QA Assistant",
-                "center": "SKARA - The Blade Remains, OCT 2016 - JAN 2017",
-                "tasks": {
-                    "t1": "Trabajar de manera conjunta con el equipo de diseño para mejorar las mecánicas del juego",
-                    "t2": "Identificar y reportar 'bugs' del juego",
-                    "t3": "Aprender a trabajar en un equipo multidisciplinario utilizando metodologías 'Agile'"
-                }
-            }
-        },
-        "languages": {
-            "title": "IDIOMAS",
-            "card01": {
-                "title": "ESPAÑOL",
-                "level": "Lengua materna"
-            },
-            "card02": {
-                "title": "CATALÁN",
-                "level": "Lengua materna"
-            },
-            "card03": {
-                "title": "INGLÉS",
-                "level": "Avanzado"
-            },
-            "card04": {
-                "title": "FRANCÉS",
-                "level": "Básico"
-            }
-        },
-        "skills": {
-            "title": "APTITUDES",
-            "introduction": "En mi opinión, en la industria tecnologica es mucho más importante saber resolver problemas y tener capacidad para aprender, que ser un experto en una tecnología en concreto. Sin embargo, ya que a muchas personas les gusta poder ver una visión general de las aptitudes, a continuación dejo un pequeño resumen lo más sincero posible de las mías.",
-            "disclaimer": "Nota: Ya que no creo que sea posible saberlo todo en cualquiera de los apartados indicados, 5 es equivalente a que me siento muy cómodo y 1 significa que tan solo lo he probado en algun proyecto personal."
-        }
-    },
-    "projects": {
-        "title": "PROYECTOS",
-        "list": {
-            "project06": {
-                "title": "Página Web Personal",
-                "description": "El principal propósito de este proyecto es tener un medio donde poder compartir un poco sobre mi y también como oportunidad, para tener una primera experiéncia con NextJS y TypeScript. Toda la página ha sido desarrollada desde zero sin hacer uso de plantillas."
-            },
-            "project05": {
-                "title": "Plataforma Web",
-                "description": "Este proyecto es una plataforma web totalmente escalable y personalizable para una gestoría. Este proyecto a sido desarrollado al 100% por mi, haciendo uso de ReactJS para el cliente, NodeJS (express) para la API-REST y MySQL para la base de datos (MVC Model)."
-            },
-            "project04": {
-                "title": "Cosmos Quest Mobile",
-                "description": "Cosmos Quest Mobile es la segunda versión de Cosmos Quest. Gracias a los buenos resultados obtenidos en el primer juego, Kongregate nos contactó como 'publisher' para desarrollar un nuevo juego basado en el original pero para dispositivos móviles, esta vez en 'Pixel Art' y trabajando de manera conjunta. El juego fué publicado en la App Store y la Play Store."
-            },
-            "project03": {
-                "title": "Cosmos Quest",
-                "description": "Cosmos Quest es un juego para navegador web publicado en Kongregate, basado en la escala de Kardashev, una teoria sobre el avance tecnológico basado en el consumo de engeria de una civilización. El juego fué desarrollado por un equipo de tres personas (2 programadores y 1 artista) en HTML5 (haciendo máximo uso de Canvas).\nEl juego superó los 10.000.000 de 'gameplays' y casi 600.000 usuarios únicos."
-            },
-            "project02": {
-                "title": "Project-IV",
-                "description": "Project-IV es un juego de misterio en primera persona, donde el jugador deberá resolver distintas tareas mezclando los elementos del juego y elementos de la vida real. El concepto principal del juego, es que se usan tecnologías como correos electrónicos, geo-localización, páginas web, etc.. para resolver puzzles de dentro del juego. Este juego fué desarrollado por un equipo de cuatro personas, como resultado del trabajo de final de carrera (no publicado)."
-            },
-            "project01": {
-                "title": "Hoogs",
-                "description": "Hoogs es un simulador de mascotas inteligentes para dispositivos móbiles. Los hoogs, son entrañables criaturas muy inteligentes. El objetivo principal del jugador, es cuidar a un Hoog alimentándolo, educándolo y jugando con él. Durante el juego, el jugador tendrá dinstintos hoogs, cada uno con su propia personalidad. \nEste proyecto fué desarrollado por un equipo de cuatro personas, peró se canceló antes de publicarlo."
-            }
-        }
-    },
-    "contact": {
-        "title": "CONTACTO",
-        "form": {
-            "name": "Tu nombre..",
-            "mail": "Tu correo..",
-            "message": "Escribe algo..",
-            "submit": "Enviar"
-        },
-        "cv": "Descargar CV (PDF)" 
-    }
+	"lang": "es",
+	"navbar": {
+		"home": "INICIO",
+		"about": "SOBRE MÍ",
+		"resume": "CV",
+		"projects": "PROYECTOS",
+		"contact": "CONTACTO"
+	},
+	"enter": "Bienvenido!",
+	"about": {
+		"title": "SOBRE MÍ",
+		"description": {
+			"p1": "Mi nombre es <b>Roger Vidal</b> y soy un desarrollador de <a href='https://en.wikipedia.org/wiki/Vilanova_i_la_Geltr%C3%BA'>Vilanova i la Geltrú</a>, una ciudad muy cercana a Barcelona.",
+			"p2": "Cuando terminé el bachillerato, decidí estudiar Ingeniería en Telecomunicaciones, pero al cabo de un tiempo me di cuenta de que no era lo que me esperaba. Llegados a este punto, decidí que queria enfocar mi futuro hacia un ámbito más relacionado con los contenidos multimedia y la programación, por lo que empezé a estudiar un Grado Universitario de Ingeniería en Contenidos Digitales Interactivos.",
+			"p3": "Una vez terminé mis estudios universitarios, empezé a trabajar en un pequeño proyecto de emprendeduría de desarrollo de videojuegos. Al principio éramos tres integrantes, pero al cabo de un año, llegamos a ser unos quinze. Durante esta etapa, en mi tiempo libre, aprovechhé para estudiar un Máster Universitario en Aplicaciones Multimedia. Después de sacar al mercado dos grandes proyectos, tomamos la decisión de cerrar la empresa.",
+			"p4": "Aunque mi experiencia laboral se centra en el desarrollo web, no me gusta considerarme un Desarrollador Web. En mi opinión, lo más importante para un programador es tener una base muy sólida y así poder adaptarse de manera senzilla a cualquier lenguaje. Gracias a esto, una desarrollador debe poder cambiar entre distintas disciplinas y cada día poder aprender alguna cosa nueva.",
+			"p5": "A nivel personal, me considero una persona muy activa a nivel deportivo. Durante toda mi vida, he combinado el Hockey sobre patínes y el esquí. He jugado al hockey por más de 20 años, entre los quales llegué a jugar durante una temporada en la 'Ok Lliga', considerada la mejor liga del mundo. Jugar durante tanto tiempo a un deporte de equipo, me ha ayudado mucho a nivel personal para poder trabajar juntamente con otras personas.",
+			"p6": "En mi tiempo libre, a parte de practicar deporte, aprovecho para pasar todo el tiempo posible con mi família y amigos. Por otro lado, cuando no tengo ningún plan, me encanta ver todo tipo de séries y peliculas. También, recientemente, me he aficionado a leer novela fantástica."
+		}
+	},
+	"resume": {
+		"title": "CURRÍCULUM",
+		"subtitles": {
+			"education": "EDUCACIÓN",
+			"experience": "EXPERIENCIA",
+			"languages": "IDIOMAS",
+			"skills": "APTITUDES"
+		},
+		"education": {
+			"title": "EDUCACIÓN",
+			"element01": {
+				"title": "Máster en Aplicaciones Multimedia",
+				"center": "Universitat Oberta de Catalunya (UOC), 2019-2021",
+				"long": "Máster Universitario en Aplicaciones Multimedia"
+			},
+			"element02": {
+				"title": "Grado en Contenidos Digitales Interactivos",
+				"center": "Universitat de Barcelona (UB), 2013-2017",
+				"long": "Grado Universitario en Ingeniería de Contenidos Digitales Interactivos"
+			}
+		},
+		"experience": {
+			"title": "EXPERIENCIA",
+			"element01": {
+				"title": "Desarrollador Front-End de Unity y encargado de iOS a CQ-Mobile",
+				"center": "GaiaByte, OCT 2017 - JUL 2020",
+				"tasks": {
+					"t1": "Co-diseñar las mecánicas iniciales y redactar documentación para el 'publisher'",
+					"t2": "Integrar elementos de arte mediante el programario 'Unity3D'",
+					"t3": "Preparar el código para que el 'publisher' pueda publicar el juego en plataformas Apple (iOS)",
+					"t4": "Resolver los 'tickets' de los jugadores (Zendesk Support)"
+				}
+			},
+			"element02": {
+				"title": "Product Owner y Desarrollador Full-Stack de Cosmos Quest",
+				"center": "GaiaByte, FEB 2017 - JUL 2020",
+				"tasks": {
+					"t1": "Organizar y decidir las próximas actualizaciones",
+					"t2": "Diseñar nuevos eventos y tomar decisiones a nivel de monetización",
+					"t3": "Programador principal de la parte del cliente del juego (Javascript - HTML5)",
+					"t4": "Co-Programador de la parte del Back-end del juego (NodeJS - PlayFab)"
+				}
+			},
+			"element03": {
+				"title": "QA Assistant",
+				"center": "SKARA - The Blade Remains, OCT 2016 - JAN 2017",
+				"tasks": {
+					"t1": "Trabajar de manera conjunta con el equipo de diseño para mejorar las mecánicas del juego",
+					"t2": "Identificar y reportar 'bugs' del juego",
+					"t3": "Aprender a trabajar en un equipo multidisciplinario utilizando metodologías 'Agile'"
+				}
+			}
+		},
+		"languages": {
+			"title": "IDIOMAS",
+			"card01": {
+				"title": "ESPAÑOL",
+				"level": "Lengua materna"
+			},
+			"card02": {
+				"title": "CATALÁN",
+				"level": "Lengua materna"
+			},
+			"card03": {
+				"title": "INGLÉS",
+				"level": "Avanzado"
+			},
+			"card04": {
+				"title": "FRANCÉS",
+				"level": "Básico"
+			}
+		},
+		"skills": {
+			"title": "APTITUDES",
+			"introduction": "En mi opinión, en la industria tecnologica es mucho más importante saber resolver problemas y tener capacidad para aprender, que ser un experto en una tecnología en concreto. Sin embargo, ya que a muchas personas les gusta poder ver una visión general de las aptitudes, a continuación dejo un pequeño resumen lo más sincero posible de las mías.",
+			"disclaimer": "Nota: Ya que no creo que sea posible saberlo todo en cualquiera de los apartados indicados, 5 es equivalente a que me siento muy cómodo y 1 significa que tan solo lo he probado en algun proyecto personal."
+		}
+	},
+	"projects": {
+		"title": "PROYECTOS",
+		"list": {
+			"project06": {
+				"title": "Página Web Personal",
+				"description": "El principal propósito de este proyecto es tener un medio donde poder compartir un poco sobre mi y también como oportunidad, para tener una primera experiéncia con NextJS y TypeScript. Toda la página ha sido desarrollada desde zero sin hacer uso de plantillas."
+			},
+			"project05": {
+				"title": "Plataforma Web",
+				"description": "Este proyecto es una plataforma web totalmente escalable y personalizable para una gestoría. Este proyecto a sido desarrollado al 100% por mi, haciendo uso de ReactJS para el cliente, NodeJS (express) para la API-REST y MySQL para la base de datos (MVC Model)."
+			},
+			"project04": {
+				"title": "Cosmos Quest Mobile",
+				"description": "Cosmos Quest Mobile es la segunda versión de Cosmos Quest. Gracias a los buenos resultados obtenidos en el primer juego, Kongregate nos contactó como 'publisher' para desarrollar un nuevo juego basado en el original pero para dispositivos móviles, esta vez en 'Pixel Art' y trabajando de manera conjunta. El juego fué publicado en la App Store y la Play Store."
+			},
+			"project03": {
+				"title": "Cosmos Quest",
+				"description": "Cosmos Quest es un juego para navegador web publicado en Kongregate, basado en la escala de Kardashev, una teoria sobre el avance tecnológico basado en el consumo de engeria de una civilización. El juego fué desarrollado por un equipo de tres personas (2 programadores y 1 artista) en HTML5 (haciendo máximo uso de Canvas).\nEl juego superó los 10.000.000 de 'gameplays' y casi 600.000 usuarios únicos."
+			},
+			"project02": {
+				"title": "Project-IV",
+				"description": "Project-IV es un juego de misterio en primera persona, donde el jugador deberá resolver distintas tareas mezclando los elementos del juego y elementos de la vida real. El concepto principal del juego, es que se usan tecnologías como correos electrónicos, geo-localización, páginas web, etc.. para resolver puzzles de dentro del juego. Este juego fué desarrollado por un equipo de cuatro personas, como resultado del trabajo de final de carrera (no publicado)."
+			},
+			"project01": {
+				"title": "Hoogs",
+				"description": "Hoogs es un simulador de mascotas inteligentes para dispositivos móbiles. Los hoogs, son entrañables criaturas muy inteligentes. El objetivo principal del jugador, es cuidar a un Hoog alimentándolo, educándolo y jugando con él. Durante el juego, el jugador tendrá dinstintos hoogs, cada uno con su propia personalidad. \nEste proyecto fué desarrollado por un equipo de cuatro personas, peró se canceló antes de publicarlo."
+			}
+		}
+	},
+	"contact": {
+		"title": "CONTACTO",
+		"form": {
+			"name": "Tu nombre..",
+			"mail": "Tu correo..",
+			"message": "Escribe algo..",
+			"submit": "Enviar"
+		},
+		"cv": "Descargar CV (PDF)"
+	}
 }

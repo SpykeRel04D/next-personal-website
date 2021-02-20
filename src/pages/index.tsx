@@ -27,7 +27,7 @@ export default function App() {
 	];
 
 	return (
-		<div>
+		<div lang={dictionary.lang}>
 			<section ref={homeRef}>
 				<Home about={aboutRef} />
 			</section>
