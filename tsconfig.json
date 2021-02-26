@@ -14,13 +14,6 @@
 		"isolatedModules": true,
 		"jsx": "preserve"
 	},
-	"include": [
-		"next-env.d.ts",
-		"**/*.ts",
-		"**/*.tsx",
-		"src/components/LanguageSwitcher/index.js",
-		"src/context/languageContext.js",
-		"src/languages/languages.js"
-	],
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/LanguageSwitcher/index.js"],
 	"exclude": ["node_modules"]
 }
