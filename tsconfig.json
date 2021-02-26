@@ -19,7 +19,8 @@
 		"**/*.ts",
 		"**/*.tsx",
 		"src/components/LanguageSwitcher/index.js",
-		"src/context/languageContext.js"
+		"src/context/languageContext.js",
+		"src/languages/languages.js"
 	],
 	"exclude": ["node_modules"]
 }
