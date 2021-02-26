@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useContext } from "react";
 import { LanguageContext } from "../../../context/languageContext";
 import SkillBar from "../../SkillBar/";
@@ -67,22 +68,22 @@ export default function Resume() {
 					<h3 className={styles.title}>{dictionary.resume.languages.title}</h3>
 					<ul className={styles.languageList}>
 						<li className={styles.languageCard}>
-							<img className={styles.flag} src="/spanish.png" alt="Spanish flag" />
+							<Image src="/spanish.png" alt="Spanish flag" width={120} height={120} />
 							<b className={styles.language}>{dictionary.resume.languages.card01.title}</b>
 							<p className={styles.level}>{dictionary.resume.languages.card01.level}</p>
 						</li>
 						<li className={styles.languageCard}>
-							<img className={styles.flag} src="/catalan.png" alt="Catalan flag" />
+							<Image src="/catalan.png" alt="Catalan flag" width={120} height={120} />
 							<b className={styles.language}>{dictionary.resume.languages.card02.title}</b>
 							<p className={styles.level}>{dictionary.resume.languages.card02.level}</p>
 						</li>
 						<li className={styles.languageCard}>
-							<img className={styles.flag} src="/english.png" alt="English flag" />
+							<Image src="/english.png" alt="English flag" width={120} height={120} />
 							<b className={styles.language}>{dictionary.resume.languages.card03.title}</b>
 							<p className={styles.level}>{dictionary.resume.languages.card03.level}</p>
 						</li>
 						<li className={styles.languageCard}>
-							<img className={styles.flag} src="/french.png" alt="French flag" />
+							<Image src="/french.png" alt="French flag" width={120} height={120} />
 							<b className={styles.language}>{dictionary.resume.languages.card04.title}</b>
 							<p className={styles.level}>{dictionary.resume.languages.card04.level}</p>
 						</li>

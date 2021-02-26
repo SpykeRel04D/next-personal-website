@@ -2,180 +2,177 @@
 @import "./../../styles/mediaqueries.scss";
 
 .projectCardZone {
-    margin: 10px 0px;
-    width: 80%;
-    
-    .projectCard {
-        width: 100%;
-        border-radius: 5px;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box; 
-        box-sizing: border-box;
-        position: relative;
-        
-        .projectCardFront {
+	margin: 10px 0px;
+	width: 80%;
 
-            .thumbnail {
-                border-radius: 5px;
-                width: 100%;
-            }
-        }
+	.projectCard {
+		width: 100%;
+		border-radius: 5px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		position: relative;
 
-        .projectCardBack {
-            border-radius: 5px;
-            position: absolute;
-            background-color: #1b242f;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            opacity: 0;
-            transition: opacity 0.6s;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: #fff;
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box; 
-            box-sizing: border-box;
+		.projectCardFront {
+			.thumbnail {
+				border-radius: 5px;
+			}
+		}
 
-            .title {
-                font-size: 2rem;
-                font-weight: 700;
-            }
+		.projectCardBack {
+			border-radius: 5px;
+			position: absolute;
+			background-color: #1b242f;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			transition: opacity 0.6s;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			color: #fff;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
 
-            .shortDescription {
-                margin-bottom: 20px;
-                width: 80%;
-                font-size: 1rem;
-                font-weight: 400;
-                text-align: center;
-            }
+			.title {
+				font-size: 2rem;
+				font-weight: 700;
+			}
 
-            .year {
-                font-size: 0.85rem;
-                font-weight: 100;
-            }
+			.shortDescription {
+				margin-bottom: 20px;
+				width: 80%;
+				font-size: 1rem;
+				font-weight: 400;
+				text-align: center;
+			}
 
-            .techIcons {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                margin-top: 20px;
-                width: 100%;
+			.year {
+				font-size: 0.85rem;
+				font-weight: 100;
+			}
 
-                .techContainer {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    padding: 0;
-                    width: 20%;
+			.techIcons {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				margin-top: 20px;
+				width: 100%;
 
-                    .icon {
-                        width: 30%;
-                        margin-bottom: 10px;
-                    }
+				.techContainer {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					padding: 0;
+					width: 20%;
 
-                    .techName {
-                        font-size: 0.7rem;
-                    }
-                }
-            }
+					.icon {
+						width: 30%;
+						margin-bottom: 10px;
+					}
 
-            .linkButton {
-                margin-top: 30px;
+					.techName {
+						font-size: 0.7rem;
+					}
+				}
+			}
 
-                img {
-                    &:hover {
-                        border-radius: 10px;
-                        border: 1px solid #fff;
-                    }
-                }
-            }
+			.linkButton {
+				margin-top: 30px;
 
-            .button {
-                display:inline-block;
-                min-width: 100px;
-                height: 30px;
-                padding:0.3em 1.2em;
-                margin:35px 0.3em 0.3em 0;
-                border-radius:2em;
-                box-sizing: border-box;
-                text-decoration:none;
-                font-weight:300;
-                color:#FFFFFF;
-                background-color: $color_button_normal01;
-                text-align:center;
-                transition: all 0.2s;
+				img {
+					&:hover {
+						border-radius: 10px;
+						border: 1px solid #fff;
+					}
+				}
+			}
 
-                &:hover {
-                    background-color: $color_button_hover01;
-                }
-            }
+			.button {
+				display: inline-block;
+				min-width: 100px;
+				height: 30px;
+				padding: 0.3em 1.2em;
+				margin: 35px 0.3em 0.3em 0;
+				border-radius: 2em;
+				box-sizing: border-box;
+				text-decoration: none;
+				font-weight: 300;
+				color: #ffffff;
+				background-color: $color_button_normal01;
+				text-align: center;
+				transition: all 0.2s;
 
-            &:hover {
-                cursor: pointer;
-                opacity: 100;
-            }
-        } 
-    }
+				&:hover {
+					background-color: $color_button_hover01;
+				}
+			}
 
-    @include rwd(portable-devices) { 
-        width: 90%;
+			&:hover {
+				cursor: pointer;
+				opacity: 100;
+			}
+		}
+	}
 
-        .projectCard {
-            .projectCardBack {
-                .title {
-                    font-size: 1.5rem;
-                    margin-bottom: 10px;
-                }
+	@include rwd(portable-devices) {
+		width: 90%;
 
-                .shortDescription {
-                    font-size: 0.9rem;
-                    margin-bottom: 12px;
-                }
+		.projectCard {
+			.projectCardBack {
+				.title {
+					font-size: 1.5rem;
+					margin-bottom: 10px;
+				}
 
-                .year {
-                    font-size: 0.8rem;
-                }
+				.shortDescription {
+					font-size: 0.9rem;
+					margin-bottom: 12px;
+				}
 
-                .techIcons {
-                    margin-top: 12px;
-                }
-                    
+				.year {
+					font-size: 0.8rem;
+				}
 
-                .button {
-                    display:none;
-                }
-            } 
-        }
-    }
+				.techIcons {
+					margin-top: 12px;
+				}
 
-    @include rwd(mobile) {
-        width: 96%;
+				.button {
+					display: none;
+				}
+			}
+		}
+	}
 
-        .projectCard {
-            .projectCardBack {
-                .title {
-                    font-size: 1.1rem;
-                    margin-bottom: 8px;
-                }
+	@include rwd(mobile) {
+		width: 96%;
 
-                .shortDescription {
-                    font-size: 0.7rem;
-                    margin-bottom: 10px;
-                }
+		.projectCard {
+			.projectCardBack {
+				.title {
+					font-size: 1.1rem;
+					margin-bottom: 6px;
+				}
 
-                .year {
-                    margin-top: 2px;
-                    font-size: 0.7rem;
-                }
+				.shortDescription {
+					font-size: 0.65rem;
+					margin-bottom: 4px;
+				}
 
-                .techIcons {
-                    margin-top: 8px;
-                }
-            }
-        }
-    }
+				.year {
+					margin-top: 1px;
+					font-size: 0.7rem;
+				}
+
+				.techIcons {
+					display: none;
+				}
+			}
+		}
+	}
 }
