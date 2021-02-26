@@ -1,13 +1,13 @@
 @import "../../../styles/colors.scss";
 
 .about {
-	.portrait {
-		padding: 0;
-		width: 80%;
-		max-width: 400px;
-	}
+    .portrait {
+        width: 80%;
+        max-width: 360px;
+        margin: 15px 0px;
+    }
 
-	.textZone {
-		width: 85%;
-	}
+    .textZone {
+        width: 85%;
+    }
 }

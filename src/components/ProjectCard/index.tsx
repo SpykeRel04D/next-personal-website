@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./projectcard.module.scss";
 
 type backStructure = {
@@ -18,11 +17,10 @@ export default function ProjectCard(props: { name: string; thumbnail: string; ba
 		for (var i = 0; i < props.back.techs.length; i++) {
 			icons.push(
 				<div className={styles.techContainer} key={i}>
-					<Image
+					<img
+						className={styles.icon}
 						src={"/icons/" + props.back.techs[i] + ".png"}
-						alt={"Tech icon: " + props.back.techs[i]}
-						width={64}
-						height={64}
+						alt={props.back.techs[i]}
 					/>
 					<div className={styles.techName}>{props.back.techs[i]}</div>
 				</div>
@@ -35,14 +33,7 @@ export default function ProjectCard(props: { name: string; thumbnail: string; ba
 		<div className={styles.projectCardZone}>
 			<div className={styles.projectCard}>
 				<div className={styles.projectCardFront}>
-					<Image
-						className={styles.thumbnail}
-						src={"/thumbnails/" + props.thumbnail}
-						alt={"Project image: " + props.name}
-						layout={"responsive"}
-						width={960}
-						height={560}
-					/>
+					<img className={styles.thumbnail} src={"/thumbnails/" + props.thumbnail} alt={props.name} />
 				</div>
 				<div className={styles.projectCardBack}>
 					<h2 className={styles.title}>{props.back.title}</h2>

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import "../styles/globals.scss";
 
-import { LanguageProvider } from "./../context/languageContext";
+import { LanguageProvider } from "./../context/languageContext.js";
 
 function MyApp({ Component, pageProps }) {
 	return (
